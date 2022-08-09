@@ -4,7 +4,7 @@ public class SBI implements Bank {
     private final String bankName;
 
     public SBI() {
-        bankName = "SBI BANK";
+        bankName = "SBI Bank";
     }
 
     @Override
