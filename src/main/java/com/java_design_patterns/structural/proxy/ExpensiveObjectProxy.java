@@ -1,4 +1,5 @@
 package com.java_design_patterns.structural.proxy;
+
 public class ExpensiveObjectProxy implements ExpensiveObject {
     public ExpensiveObject object;
 
