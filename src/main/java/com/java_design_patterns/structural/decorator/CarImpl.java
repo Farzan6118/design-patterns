@@ -5,7 +5,7 @@ public class CarImpl implements Car {
 
     @Override
     public String assemble() {
-        return "Basic Car "+ counter();
+        return "Basic Car " + counter();
     }
 
     @Override

@@ -18,6 +18,6 @@ public class SportsCar extends CarDecorator {
 
     @Override
     public Integer counter() {
-        return super.counter()+1;
+        return super.counter() + 1;
     }
 }

@@ -6,7 +6,8 @@ public class DeviceButton {
     public DeviceButton(Command theCommand) {
         this.theCommand = theCommand;
     }
-    public void press(){
+
+    public void press() {
 
         theCommand.execute();
 

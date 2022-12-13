@@ -16,6 +16,6 @@ public class BridgeDemo {
         shapeList.add(new Circle(new Green()));
         shapeList.add(new Circle(new Blue()));
         shapeList.add(new Circle(new Red()));
-        shapeList.forEach(shape -> System.out.print(shape.draw()+" "));
+        shapeList.forEach(shape -> System.out.print(shape.draw() + " "));
     }
 }

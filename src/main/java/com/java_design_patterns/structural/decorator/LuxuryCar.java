@@ -8,7 +8,7 @@ public class LuxuryCar extends CarDecorator {
 
     @Override
     public String assemble() {
-        return super.assemble() + " Adding features of Luxury Car "+ counter();
+        return super.assemble() + " Adding features of Luxury Car " + counter();
     }
 
     @Override
@@ -18,6 +18,6 @@ public class LuxuryCar extends CarDecorator {
 
     @Override
     public Integer counter() {
-        return super.counter()+1;
+        return super.counter() + 1;
     }
 }

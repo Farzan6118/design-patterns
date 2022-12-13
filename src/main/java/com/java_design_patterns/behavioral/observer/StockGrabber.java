@@ -9,6 +9,7 @@ public class StockGrabber implements Subject {
     private double ibmPrice;
     private double applePrice;
     private double samsungPrice;
+
     public StockGrabber() {
         this.observers = new ArrayList<>();
     }
@@ -22,7 +23,7 @@ public class StockGrabber implements Subject {
     public void unRegister(Observer deleteObserver) {
         if (observers.contains(deleteObserver)) {
             int index = observers.indexOf(deleteObserver);
-            System.out.println("observer '" + (index+1) + "' have been unregistered");
+            System.out.println("observer '" + (index + 1) + "' have been unregistered");
             observers.remove(index);
         }
     }
